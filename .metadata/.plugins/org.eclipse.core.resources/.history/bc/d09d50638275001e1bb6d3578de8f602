@@ -1,0 +1,47 @@
+
+public class Question1 {
+	
+
+	public static void main(String[] args) {
+		int[] a = {1,5,9,10,15,20};
+		int[] b = {2,3,8,13};
+		int j=0;
+		int i=0;
+		while(true) {
+			for(int k=0; k<a.length; k++) {
+				System.out.print(a[k] + " ");
+			}
+			System.out.print("\n");
+			for(int k=0; k<b.length; k++) {
+				System.out.print(b[k] + " ");
+			}
+			System.out.println("\n");
+			if(i>=a.length || j>=b.length)
+				break;
+			if(a[i]>b[j]) {
+				a[i] = a[i] + b[j];
+				b[j] = a[i] - b[j];
+				a[i] = a[i] - b[j];
+				for(int k =0; k<b.length-1; k++) {
+					if(b[k]>b[k+1]) {
+						b[k] = b[k] + b[k+1];
+						b[k+1] = b[k] - b[k+1];
+						b[k] = b[k] - b[k+1];
+					}
+				}
+				j++;
+			}else {
+				i++;
+			}
+		}
+		for(int k=0; k<a.length; k++) {
+			System.out.print(a[k] + " ");
+		}
+		System.out.print("\n");
+		for(int k=0; k<b.length; k++) {
+			System.out.print(b[k] + " ");
+		}
+
+	}
+
+}
