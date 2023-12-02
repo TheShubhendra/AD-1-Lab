@@ -1,7 +1,5 @@
 import java.util.Arrays;
-
 public class Question3 {
-
 	public static void main(String[] args) {
 		int[] arr = {4,3, 3, 4, 21, 3, 21, 1, 7};
 		Arrays.sort(arr);
@@ -21,5 +19,4 @@ public class Question3 {
 			System.out.print(arr[i-1]);
 		}
 	}
-
 }

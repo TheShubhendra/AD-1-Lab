@@ -17,7 +17,7 @@ public class Question2 {
 		int num_to_reduce = max;
 		int reduced_so_far = 0;
 		int counter = 0;
-		for(int i=0; i<max+1; i++) {
+		for(int i=1; i<max+1; i++) {
 			if(num_to_reduce<=0) {
 				break;
 			}
@@ -34,7 +34,7 @@ public class Question2 {
 			
 		}
 		System.out.println(counter);
-		
+		                                                     
 	}
 
 }
