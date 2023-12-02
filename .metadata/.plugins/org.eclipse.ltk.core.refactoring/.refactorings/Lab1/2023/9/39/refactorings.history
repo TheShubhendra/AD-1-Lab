@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename local variable &apos;max_so_far&apos; in &apos;MaximumSubArray.main(...)&apos; to &apos;maxSum&apos;&#x0D;&#x0A;- Original project: &apos;Hmm&apos;&#x0D;&#x0A;- Original element: &apos;MaximumSubArray.main(String[]).max_so_far&apos;&#x0D;&#x0A;- Renamed element: &apos;max_so_far&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;max_so_far&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{MaximumSubArray.java[MaximumSubArray~main~\[QString;@max_so_far!145!163!149!158!I!0!false" name="maxSum" references="true" stamp="1696073313964" version="1.0"/>
-</session>
